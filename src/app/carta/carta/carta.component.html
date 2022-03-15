@@ -1,7 +1,7 @@
 <div *ngIf="id == 'CC'" class="coperta">
-<img [src] = "id+'.png'" style="width:100%">
+<img src = "https://raw.githubusercontent.com/ilgilberto/angular-ivy-xda27y/master/assets/retro.png" style="width:100%">
 </div>
 
 <div *ngIf="id && id != 'CC'" style="scoperta">
-<img src = "retro.png" style="width:100%">
+<img [src] = "'https://raw.githubusercontent.com/ilgilberto/angular-ivy-xda27y/master/assets/'+id+'.png'" style="width:100%">
 </div>
