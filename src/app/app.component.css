@@ -1,0 +1,51 @@
+.disp2 {
+  position: relative;
+  float: right;
+  width: 90%;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 1.8vw;
+}
+
+.layer {
+  position: absolute;
+  top: 1.7vw;
+  left: 1.9vw;
+  width: 90%;
+  height: 15.5vw;
+  z-index: 1;
+  background-color: blue;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.inner {
+  position: absolute;
+  top: 1.7vw;
+  left: 1.9vw;
+  width: 90%;
+  height: 15.5vw;
+  z-index: 2;
+  color: white;
+  opacity: 1;
+  filter: alpha(opacity=);
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.img img {
+  width: 100%;
+}
+
+.carta {
+  width: 8.5vw;
+  border-width: 4px;
+  border-style: solid;
+  padding: 0.3vw;
+  border-radius: 15px;
+  float: right;
+  margin-right: 33%;
+}
