@@ -40,4 +40,17 @@
   width: 100%;
 }
 
+#container {
+  width: 100%;
+}
 
+.cartaContainer {
+  float: left;
+  width: 33%;
+}
+
+.punteggio {
+  width: 100%;
+  background-color: blue;
+  color: white;
+}

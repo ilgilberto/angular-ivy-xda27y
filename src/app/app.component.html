@@ -1,18 +1,18 @@
-<div style="width:100%">
-<div  style="float:left;width:33%;">
+<div id="container">
+<div  class="cartaContainer">
      <carta [id]="carta1"></carta>
 </div>
-<div  style="float:left;width:33%;">
+<div  class="cartaContainer">
    <carta [id]="carta2"></carta>
    
 </div>
-<div  style="float:left;width:33%;">
+<div  class="cartaContainer">
 <carta [id]="carta3"></carta>
 </div>
 </div> 
 <div style="clear:both">&nbsp;</div>
 <div style="width:100%;">
- <div  style="float:left;width:33%;">
+ <div  class="cartaContainer">
    <table  style="position:relative;left:9vw;">
  <tr><td><carta [id]="mazzo"></carta></td>
  <td><carta [id]="briscola"></carta></td>
@@ -36,6 +36,6 @@
  </table>
  </div>
  <div style="clear:both">&nbsp;</div>
- <div style="width:100%;background-color:blue;color:white">
+ <div class="punteggio">
     Rosso 2 Blu 24
  </div>
