@@ -1,8 +1,16 @@
-.scoperta {
-  border-width:4px;width:150px;border-style:solid;padding:10px;border-radius:15px"
-}
+
 
 
 .coperta {
-  border-width:4px;width:150px;border-style:solid;padding:10px;border-radius:15px;background-image: url('fill.png');
+ background-image: url('https://raw.githubusercontent.com/ilgilberto/angular-ivy-xda27y/master/assets/fill.png');
+}
+
+.carta {
+  width: 8.5vw;
+  border-width: 4px;
+  border-style: solid;
+  padding: 0.3vw;
+  border-radius: 15px;
+  float: right;
+  margin-right: 33%;
 }
