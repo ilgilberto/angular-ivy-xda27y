@@ -1,25 +1,21 @@
 <div style="width:100%">
 <div  style="float:left;width:33%;">
-
-   
-     <carta id="CC"></carta>
+     <carta [id]="carta1"></carta>
+</div>
+<div  style="float:left;width:33%;">
+   <carta [id]="carta2"></carta>
    
 </div>
 <div  style="float:left;width:33%;">
-   
-   <carta id="RD"></carta>
-   
-</div>
-<div  style="float:left;width:33%;">
-<carta id="RD"></carta>
+<carta [id]="carta3"></carta>
 </div>
 </div> 
 <div style="clear:both">&nbsp;</div>
 <div style="width:100%;">
  <div  style="float:left;width:33%;">
    <table  style="position:relative;left:9vw;">
- <tr><td><carta id="RD"></carta></td>
- <td><carta id="CC"></carta></td>
+ <tr><td><carta [id]="mazzo"></carta></td>
+ <td><carta [id]="briscola"></carta></td>
 </tr>
  </table>
 </div>
@@ -34,8 +30,8 @@
 
 <div  style="float:right;">
      <table style="position:relative;right:3vw;">
- <tr><td><carta id="RD"></carta></td>
- <td><carta id="CC"></carta>
+ <tr><td><carta  [id]="giocata1"></carta></td>
+ <td><carta [id]="giocata2"></carta>
  </td></tr>
  </table>
  </div>
