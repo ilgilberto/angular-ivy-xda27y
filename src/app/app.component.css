@@ -48,18 +48,77 @@
 }
 
 #displaycontainer {
-                   float:left;
-                   width:33%;
-                   margin-right:33%;}
+  float: left;
+  width: 33%;
+  margin-right: 33%;
+}
 
-#displaycontainer>div {
-                    position: relative;
-                    float: right;
-                    width: 90%;
-                    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-                    font-size: 1.8vw;
-                  }
+#displaycontainer > div {
+  position: relative;
+  float: right;
+  width: 90%;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 1.8vw;
+}
 
-.carteDaGiocare {float:right;}
+#displaycontainerP {
+  float: left;
+  width: 33%;
+  margin-right: 33%;
+}
 
-.carteDaGiocare table {position:relative;right:1.5vw;}
+#displaycontainerP > div {
+  position: absolute;
+  width: 90%;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 3.9vw;
+}
+
+#displaycontainerP {
+  display: none;
+}
+
+.carteDaGiocare {
+  float: right;
+}
+
+.carteDaGiocare table {
+  position: relative;
+  right: 1.5vw;
+}
+
+/*  Modifiche per portrait (orientamento dispositivi mobili) */
+
+.dispP {
+  display: none;
+}
+.layerP {
+  position: relative;
+  top: 4.9vw;
+  left: 4.9vw;
+  width: 90%;
+  height: 48vw;
+  z-index: 1;
+  background-color: blue;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.innerP {
+  position: absolute;
+  top: 4.9vw;
+  left: 4.9vw;
+  width: 90%;
+  height: 48vw;
+  z-index: 2;
+  color: white;
+  opacity: 1;
+  filter: alpha(opacity=);
+}
+@media all and (orientation: portrait) {
+  #displaycontainer {
+    display: none;
+  }
+  #displaycontainerP {
+    display: block;
+  }
+}
