@@ -17,6 +17,8 @@ ngOnInit(): void {
 
     this.giocata1 = 'CC';
     this.giocata2 = 'CC';
+
+    this.print = "Benvenuto nel fantastico mondo della briscola !";
   
 }
 
@@ -30,7 +32,7 @@ ngOnInit(): void {
   giocata1: string;
   giocata2: string;
 
-
+  print: string;
 
   name = 'Angular ' + VERSION.major;
 }
