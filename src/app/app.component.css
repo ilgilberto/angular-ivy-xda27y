@@ -59,3 +59,7 @@
                     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
                     font-size: 1.8vw;
                   }
+
+.carteDaGiocare {float:right;}
+
+.carteDaGiocare table {position:relative;right:1.5vw;}
