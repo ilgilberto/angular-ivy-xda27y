@@ -1,9 +1,5 @@
-.coperta {
-  background-image: url('https://raw.githubusercontent.com/ilgilberto/angular-ivy-xda27y/master/assets/fill.png');
-}
-
 .carta {
-  width: 10vw;
+  width: 8.5vw;
   border-width: 4px;
   border-style: solid;
   padding: 0.3vw;
@@ -13,10 +9,19 @@
   overflow: auto;
 }
 
+.coperta {
+  background-image: url('https://raw.githubusercontent.com/ilgilberto/angular-ivy-xda27y/master/assets/fill.png');
+  width: 8.2vw;
+}
+
 /*  Modifiche per portrait (orientamento dispositivi mobili) */
 
 @media all and (orientation: portrait) {
   .carta {
     width: 15vw;
+  }
+
+  .coperta {
+    width: 13.8vw;
   }
 }

@@ -1,9 +1,9 @@
 .layer {
   position: absolute;
-  top: 1.7vw;
-  left: 1.9vw;
-  width: 90%;
-  height: 16vw;
+  top: 1.5vw;
+  left: 1.6vw;
+  width: 79%;
+  height: 14vw;
   z-index: 1;
   background-color: blue;
   opacity: 0.5;
@@ -12,21 +12,21 @@
 
 .inner {
   position: absolute;
-  top: 1.7vw;
-  left: 1.9vw;
-  width: 90%;
-  height: 15.5vw;
+  top: 1.5vw;
+  left: 1.6vw;
+  width: 79%;
+  height: 14vw;
   z-index: 2;
   color: white;
   opacity: 1;
-  filter: alpha(opacity=);
+  filter: alpha(opacity=100);
 }
 
 .img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 88%;
 }
 .img img {
   width: 100%;
@@ -79,6 +79,7 @@
   width: 90%;
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   font-size: 3.9vw;
+  margin-left: 7%;
 }
 
 @media (pointer:none), (pointer:coarse) {
@@ -104,10 +105,10 @@
 
 .layerP {
   position: relative;
-  top: 4.9vw;
+  top: 4.5vw;
   left: 4.9vw;
-  width: 90%;
-  height: 48vw;
+  width: 78%;
+  height: 39vw;
   z-index: 1;
   background-color: blue;
   opacity: 0.5;
@@ -115,10 +116,10 @@
 }
 .innerP {
   position: absolute;
-  top: 4.9vw;
+  top: 4.5vw;
   left: 4.9vw;
-  width: 90%;
-  height: 48vw;
+  width: 78%;
+  height: 39vw;
   z-index: 2;
   color: white;
   opacity: 1;
