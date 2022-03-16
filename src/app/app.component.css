@@ -3,7 +3,7 @@
   top: 1.7vw;
   left: 1.9vw;
   width: 90%;
-  height: 15.5vw;
+  height: 16vw;
   z-index: 1;
   background-color: blue;
   opacity: 0.5;
@@ -56,9 +56,16 @@
 #displaycontainer > div {
   position: relative;
   float: right;
-  width: 90%;
+  width: 100%;
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   font-size: 1.8vw;
+}
+
+@media (pointer:none), (pointer:coarse) {
+  #displaycontainer> div {
+    font-size: 3vw;
+  }
+
 }
 
 #displaycontainerP {
@@ -73,6 +80,12 @@
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   font-size: 3.9vw;
 }
+
+@media (pointer:none), (pointer:coarse) {
+  #displaycontainerP > div {
+    font-size: 7.5vw;}
+  }
+
 
 #displaycontainerP {
   display: none;
@@ -89,9 +102,6 @@
 
 /*  Modifiche per portrait (orientamento dispositivi mobili) */
 
-.dispP {
-  display: none;
-}
 .layerP {
   position: relative;
   top: 4.9vw;
